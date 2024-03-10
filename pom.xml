@@ -34,6 +34,12 @@
       <version>24.1.1-jre</version>
     </dependency>
   </dependencies>
-
+           <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/evvil/axmleditor</url>
+    </repository>
+  </distributionManagement>
 
 </project>
